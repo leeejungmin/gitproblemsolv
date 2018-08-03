@@ -1,0 +1,17 @@
+./helloword.py (permission denied)
+sudo chmod a+x helloword.py(ls -al 실행가능한 파일로 변환 되었다.)
+다시 ./helloword.py
+type python3(실행이 안되니까 이렇게해서 #1/usr/bin/python3)을 복사한후
+
+#1/usr/bin/python3 (파이썬 파일에다가 붙여넣기를 한다.제일위에다가)
+
+
+--------------------------------------------------------------------
+
+sudo apt-get update
+
+sudo apt-get install nano
+
+sudo nano /etc/apa(하고 tab을 누른다)
+
+
