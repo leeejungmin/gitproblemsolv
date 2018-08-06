@@ -1,0 +1,10 @@
+localhost:81
+
+Error message는 apache2-logs-error(클리어한다음 한다.)
+127.0.0.1/helloworld.py
+
+bitnami
+
+해냈다.!!!!!!!!! 끊기와 찾기로 해냈다 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+
+googling을 통해서 해냈다.!!!!!
