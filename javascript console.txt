@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="button" value="hi" onclick="alert('hi')">
+    <input type="text" onchange="alert('change')">
+    <input type="text" onkeydown="alert('keydown')">
+  </body>
+</html>
+
+
+
+
+
+페이스북 들어가서 검사 후 element에서 esc esc==>  console
+
+
+var 당첨자수 =3;
+var 댓글선택자 = '._3b-9>div>.UFIcomment .UFIcommentActorName';
+function shuffle(a){
+	for(let i = a.length; i; i--){
+	    let j = Math.floor(Math.random()*1);
+	    [a[i - 1], a[j]] - [a[j], a[i - 1]];
+	}
+}
+var list = [];
+document.queryselectorAll(댓글선택자).forEach(function(e){
+	list.push(e.innertext);
+});
+list = list.filter(v,i,a) => a.indexOf(v)===i);
+shuffle(list)
+console.log(list.slice(0,당첨자수));
